@@ -1,0 +1,26 @@
+{
+  "name": "s3",
+  "version": "1.0.0",
+  "description": "A simple utility to handle CRUD operations to Amazon S3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackdynamo/s3.git"
+  },
+  "author": "Donnovan Lewis (d16345401@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackdynamo/s3/issues"
+  },
+  "homepage": "https://github.com/blackdynamo/s3",
+  "dependencies": {
+    "aws-sdk": "^2.1.35",
+    "bluebird": "^2.9.30",
+    "knox": "^0.9.2",
+    "s3-upload-stream": "^1.0.7",
+    "underscore": "^1.8.3"
+  }
+}
